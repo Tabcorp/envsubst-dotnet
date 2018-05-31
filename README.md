@@ -2,7 +2,8 @@
 ## Environment variables substitution in C# for .NET
 
 This tool will do in-place replacement for environment variables in the given file.
-The environment variable format is %NAME% following Windows convention
+The environment variable format is `%NAME%` following Windows convention.
+It is a replacement for **[GNU envsubst](https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html)** for Windows.
 
 It can be useful for Windows docker to substitute configuration files with the environment variables during bootstrap.
 
